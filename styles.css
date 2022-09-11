@@ -1,0 +1,76 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/* opdracht 1.1*/
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* opdracht 1.2*/
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* opdracht 1.3*/
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: left;
+    gap: 1rem;
+}
+
+/* opdracht 1.4*/
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#password, #username {
+    display: flex;
+    padding-right: 25%;
+}
+
+/* opdracht 1.5 */
+
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    article {
+        flex-direction: column;
+    }
+}
+
